@@ -7,15 +7,13 @@ public class Ninja {
     String nivelDeDificuldade;
     String statusDaMissao;
 
-    public Ninja(){
+    public void Ninja(){
     }
 
     public Ninja(String nome, int idade, String missao, String nivelDeDificuldade, String statusDaMissao) {
         this.nome = nome;
         this.idade = idade;
         this.missao = missao;
-        this.nivelDeDificuldade = nivelDeDificuldade;
-        this.statusDaMissao = statusDaMissao;
     }
 
     public void mostraInformacoes(){
